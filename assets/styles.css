@@ -195,3 +195,78 @@ a, a:visited, a:hover, a:active {
   padding-left: 5px;
   color: var(--bg-purple);
 }
+
+@media screen and (max-width: 780px) {
+  .experience-content, .education-content, .awards-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .left-section {
+    grid-column: span 3;
+  }
+
+  .right-section {
+    grid-column: span 4;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .resume-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .resume-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .profession {
+    font-size: 18px;
+  }
+
+  .left-title {
+    font-size: 18px;
+  }
+
+  .right-title {
+    font-size: 18px;
+  }
+
+  .contact-info ul li, .references ul li {
+    font-size: 12px;
+  }
+
+  .contact-info ul li i, .references ul li i {
+    font-size: 12px;
+  }
+
+  .skills ul li {
+    font-size: 12px;
+  }
+
+  .about-me-content {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+
+  .exp-company-name, .education-school-name, .awards-company-name {
+    font-size: 18px;
+  }
+
+  .exp-time-period, .educationp-time-period, .awards-time-period {
+    font-size: 16px;
+  }
+
+  .exp-position, .education-subject, .awards-name {
+    font-size: 18px;
+  }
+}
