@@ -155,7 +155,7 @@ a, a:visited, a:hover, a:active {
   line-height: 2rem;
 }
 
-.experience-content, .education-content, .awards-content {
+.experience-content, .education-content, .awards-contents {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-bottom: 2rem;
